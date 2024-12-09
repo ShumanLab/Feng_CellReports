@@ -1,0 +1,20 @@
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - pandas
+  - black
+  - jupyter
+  - plotly
+  - scipy
+  - xarray
+  - tqdm
+  - dask
+  - seaborn
+  - pip
+  - python-kaleido
+  - opencv
+  - holoviews
+  - bokeh
+  - pip:
+      - statannotations
