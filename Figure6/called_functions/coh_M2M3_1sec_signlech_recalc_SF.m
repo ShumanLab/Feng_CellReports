@@ -1,0 +1,26 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% this script is to re calculate DGCA1 M2MO coh and DG-CA1 M2/M32CA1 r  based on alined M2M3 coh
+% This re-calc is basing on run only and non seiz
+% this is based on 1sec time bins
+% INPUTS: M2M3coh_1sec
+% (dir: L:\Susie\SummerEphysHPCEC\AnalysisOutput\HPCEC_analysis\subsample_ana\new_1sec\M2M3\)
+
+% susie 5/18/24
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PART1  calc for DGCA1 coh for all animals based on aligned M2M3 coh
+% below are all animals with M2 and DGCA1
+animals = {'TS112-0' 'TS114-1'  'TS111-1' 'TS115-2' 'TS116-3' ...
+    'TS116-2' 'TS117-0' 'TS118-4'  'TS90-0' ...
+    'TS89-1' 'TS114-3' 'TS113-1' 'TS118-2'  ...
+     'TS110-3'  'TS115-1'  ...
+    'TS89-2' 'TS91-2' 'TS90-2'}; %list of all animals with mec2 and mec3
+coh_M2M3_1sec_recalcDGCA1coh_SF(animals)
+
+%% PART 2  calc for M2MO coh for all animals based on aligned M2M3 coh
+% below are all animals with M2 and DGCA1
+animals = {'TS112-0' 'TS114-1'  'TS111-1' 'TS115-2' 'TS116-3' ...
+    'TS116-2' 'TS117-0' 'TS118-4'  'TS90-0' ...
+    'TS89-1' 'TS114-3' 'TS113-1' 'TS118-2'  ...
+     'TS110-3'  'TS115-1'  ...
+    'TS89-2' 'TS91-2' 'TS90-2'}; %list of all animals with mec2 and mec3
+coh_M2M3_1sec_recalcM2MOcoh_SF(animals)
