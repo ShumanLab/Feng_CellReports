@@ -1,0 +1,21 @@
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - jupyter
+  - scikit-learn
+  - scikit-image
+  - plotly
+  - black
+  - pandas
+  - xarray
+  - dask
+  - h5py
+  - tqdm
+  - netCDF4
+  - sparse
+  - pytables
+  - pyarrow
+  - seaborn
+  - statsmodels
